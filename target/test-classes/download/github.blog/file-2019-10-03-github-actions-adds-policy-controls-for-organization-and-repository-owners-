@@ -1,0 +1,5 @@
+title:
+GitHub Actions adds policy controls for organization and repository owners
+content:
+The ability to reuse actions from across the GitHub community is one of the most powerful features of GitHub Actions. As a developer, you can take advantage of the collective knowledge of millions of other developers just as you do in your applications. However, sometimes you just want to use Actions that your organization creates, either to have the most control over change as possible or to meet security and compliance needs.As a first step in providing repository and organization owners with this type of control, we¡¯ve introduced three settings at both the repository and organization level.We understand that these initial changes will not address everyone¡¯s unique needs, however, they¡¯re a good first step towards providing a rich set of controls from GitHub Actions. We look forward to collaborating with the community in other ways we can make Actions the best choice for your team. If you have questions, comments, or feedback, reach out in the community forum.Learn more about GitHub Actions
+----------

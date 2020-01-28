@@ -1,0 +1,5 @@
+title:
+Save time linking resources with autolink references
+content:
+Are you constantly searching for references in external systems? Now you can set up an autolink reference and GitHub will automatically create links for you.If you use GitHub with external services (like Jira), you might be familiar with shorthand references (like TICKET-123) to point to resources in those external systems.Starting today, GitHub can automatically transform shorthand references into clickable links for GitHub Pro, Team, and Enterprise plans. To enable this feature, a repository admin needs to register the reference prefix (such as TICKET-) in the settings. Afterwards, references of that type are detected in issues, pull requests, comments, or commit messages, and turned into links. This speeds up navigation between GitHub and external systems.We hope this change makes your workflow smoother, but we can always improve. Let us know how autolink references work for you.Learn more about autolink references
+----------
