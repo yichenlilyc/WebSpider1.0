@@ -1,0 +1,2 @@
+# WebSpider1.0
+WebSpider is a project based on Java, used to learn web crawler framework. It provides some simple interfaces for crawling the web by just simple setting up instead of file configuration and then a multi-threaded web spider can be set up. Functions may be limited due to limited time, which will be improved in the future. Referred to some python and java crawler for the framework and design.
