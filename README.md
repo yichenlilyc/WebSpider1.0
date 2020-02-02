@@ -31,12 +31,12 @@ public class GithubBlogSpider {
             .setField("title:text", "> div.post-item__content > h4 >a")
             .setField("href:href:goDown", "> div.post-item__content > h4 >a")
     	      .setField("user:text", "> div.post-item__content > a > p"))
-    	      .setUrlPattern("https://github.blog/{date}-{category}-{other}/")
-    	      .setTimeout(5000)  //ms
-    	      .addParseItem(new ParseItem()
-    	      		.setCommonCsspath("article")
-    	          .setField("title:text", " > header > div > h1")
-	              .setField("content:texts",">div.post__content.markdown-body > p"));	
+        .setUrlPattern("https://github.blog/{date}-{category}-{other}/")
+        .setTimeout(5000)  //ms
+        .addParseItem(new ParseItem()
+            .setCommonCsspath("article")
+            .setField("title:text", " > header > div > h1")
+            .setField("content:texts",">div.post__content.markdown-body > p"));	
 
     	SpiderHub.create(parseItems)
         .startfrom("https://github.blog/page/2",
